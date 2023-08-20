@@ -1,0 +1,71 @@
+.list-item {
+  display: flex;
+  width: 451px;
+  height: 279px;
+  box-shadow: 0px 4px 12px 0px #00000026;
+  margin-bottom: 30px;
+}
+img {
+  width: 183px;
+  height: 279px;
+}
+.info-box {
+  list-style-type: none;
+  padding: 5px 0 0 10px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+.title {
+  font-size: 18px;
+  color: #000000;
+  margin: 0;
+  width: 90%;
+}
+.date {
+  color: #827e7e;
+  font-size: 13px;
+  margin: 0;
+}
+.genres-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin: 0;
+}
+.genres-list__item {
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+  margin: 5px;
+  color: #827e7e;
+  font-size: 13px;
+  margin-right: 8px;
+}
+.list-item--average-rating {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid;
+  border-radius: 50%;
+  min-width: 30px;
+  height: 30px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+.info {
+  font-size: 12px;
+  color: #000000;
+  margin: 0;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+.list-item--stars {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.ant-rate-star {
+  width: 3px;
+  height: 3px;
+}

@@ -1,0 +1,31 @@
+.tabs {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.65);
+  background: #ffffff;
+  border: none;
+}
+
+.search-btn {
+  margin-right: 8px;
+}
+
+.rated-btn {
+  margin-left: 8px;
+}
+
+.active-btn:active {
+  color: lightblue;
+  border-bottom: lightblue, solid, 2px;
+}
+
+.search-btn:hover {
+  color: red;
+}
